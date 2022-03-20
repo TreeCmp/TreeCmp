@@ -4,13 +4,30 @@ TreeCmp: comparison of trees in polynomial time. See the [manual](TreeCmp_manual
 
 ## Compilation from the command line
 
-Normally, compilation is done via an IDE like NetBeans or Eclipse
+Normally, compilation is done via an IDE like NetBeans or Eclipse.  However, to compile via the command line, follow these steps:
 
-To compile via the command-line, creating files in the directory `out/class`, you should be able to do the 
-following from the top level folder
-
+Recursively clone the repository
 ```
-javac -d out/class -cp lib/commons-cli-1.4.jar src/treecmp/*.java src/treecmp/*/*.java src/pal/*/*.java
+git clone --recursive https://github.com/TreeCmp/TreeCmp.git
+```
+cd into the cloned repository and make output diriectories
+```
+cd TreeCmp && mkdir -p out/class
+```
+Export CLASSPATH to the jar's in the lib directory
+```
+export CLASSPATH=lib/commons-cli-1.4.jar:\
+lib/commons-collections4-4.3.jar:\
+lib/commons-compress-1.18.jar:\
+lib/commons-io-2.6.jar:\
+lib/poi-4.1.0.jar:\
+lib/poi-ooxml-4.1.0.jar:\
+lib/poi-ooxml-schemas-4.1.0.jar:\
+lib/xmlbeans-3.1.0.jar:$CLASSPATH
+```
+Compile
+```
+javac -d out/class src/treecmp/*.java src/treecmp/*/*.java src/pal/*/*.java src/treecmp/metric/weighted/*.java src/distanceAlg1/*.java src/polyAlg/*.java
 ```
 
 The resulting compiled files can be run directly, for example by issuing the command
