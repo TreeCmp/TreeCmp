@@ -1,6 +1,0 @@
-Manifest-Version: 2.0
-Main-Class: treecmp.Main
-Specification-Version: 2.0
-Implementation-Version: build3
-Class-Path: lib/commons-cli-1.4.jar lib/commons-collections4-4.3.jar lib/commons-compress-1.18.jar lib/commons-io-2.6.jar lib/poi-4.1.0.jar lib/poi-ooxml-4.1.0.jar lib/poi-ooxml-schemas-4.1.0.jar lib/xmlbeans-3.1.0.jar
-

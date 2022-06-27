@@ -1,12 +1,12 @@
 [submodule "src/pal"]
-	path = src/pal
+	path = src/main/java/pal
 	url = https://github.com/TreeCmp/pal.git
 	branch = src
 [submodule "src/distanceAlg1"]
-	path = src/distanceAlg1
+	path = src/main/java/distanceAlg1
 	url = https://github.com/TreeCmp/BHVtreespace.git
 	branch = distanceAlg1
 [submodule "src/polyAlg"]
-	path = src/polyAlg
+	path = src/main/java/polyAlg
 	url = https://github.com/TreeCmp/BHVtreespace.git
 	branch = polyAlg
