@@ -4,7 +4,7 @@ TreeCmp: comparison of trees in polynomial time. See the [manual](TreeCmp_manual
 
 ## Compilation from the command line
 
-Normally, compilation is done via an IDE like NetBeans or Eclipse.  However, to compile via the command line, follow these steps:
+Normally, compilation is done via an IDE like IntelliJ IDEA, NetBeans or Eclipse.  However, to compile via the command line, follow these steps:
 
 Recursively clone the repository
 ```
