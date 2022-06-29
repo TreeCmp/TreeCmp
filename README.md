@@ -45,4 +45,4 @@ gradle jar
 The jar executable (e.g. `TreeCmp.jar`) should be created in the `build/lib` directory.
 
 The executable file can be run as described in the [manual](TreeCmp_manual.pdf) (e.g. 
-`java -jar bin/TreeCmp.jar -w 2 -d ms -i examples/beast/testBSP.newick -o testBSP.newick_w_2.out -I`
+`java -jar bin/TreeCmp.jar -w 2 -d ms -i examples/beast/testBSP.newick -o testBSP.newick_w_2.out -I`)
