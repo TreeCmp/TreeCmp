@@ -1,6 +1,6 @@
-# treeCmp
+# TreeCmp: comparison of trees in polynomial time. 
 
-TreeCmp: comparison of trees in polynomial time. See the [manual](TreeCmp_manual.pdf) for usage.
+See the [manual](TreeCmp_manual.pdf) for usage.
 
 This is a Gradle project with IntelliJ IDEA and can be easily compiled with this IDE.
 
