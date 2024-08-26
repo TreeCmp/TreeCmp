@@ -6,17 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import pal.misc.IdGroup;
 import pal.tree.Node;
 import pal.tree.Tree;
-import pal.tree.TreeUtils;
 import treecmp.common.TreeCmpException;
 import treecmp.metric.Metric;
 import treecmp.metric.RFMetric;
-import treecmp.test.util.TreeCreator;
-
-import java.util.HashSet;
-import java.util.Set;
+import treecmp.util.TreeCreator;
 
 class SprUtilsTest {
 

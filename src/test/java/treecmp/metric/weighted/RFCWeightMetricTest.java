@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import pal.tree.Tree;
 import treecmp.metric.RFClusterMetric;
-import treecmp.test.util.TreeCreator;
+import treecmp.util.TreeCreator;
 
 class RFCWeightMetricTest {
 

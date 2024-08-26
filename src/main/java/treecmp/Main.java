@@ -25,7 +25,6 @@ import java.util.logging.Logger;
 
 import pal.tree.TreeParseException;
 import treecmp.common.TreeCmpException;
-import treecmp.io.OutputFileType;
 import treecmp.io.ResultWriter;
 import treecmp.io.TreeReader;
 import treecmp.command.Command;

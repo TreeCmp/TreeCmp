@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package treecmp.test.util;
+package treecmp.util;
 
 import pal.misc.IdGroup;
 import pal.misc.Identifier;

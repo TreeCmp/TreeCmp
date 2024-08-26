@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import pal.tree.Tree;
-import treecmp.test.util.TreeCreator;
+import treecmp.util.TreeCreator;
 
 class RMASTMetricTest {
 

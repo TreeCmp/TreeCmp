@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import pal.tree.Tree;
 import treecmp.common.TreeCmpException;
 import treecmp.metric.Metric;
-import treecmp.test.util.TreeCreator;
+import treecmp.util.TreeCreator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
