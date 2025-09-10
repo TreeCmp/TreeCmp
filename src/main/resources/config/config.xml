@@ -5,7 +5,7 @@
         <metric>
             <name>MatchingTriplet</name>
             <command_name>m3</command_name>
-            <class>treecmp.metric.MatchingTripletMetric</class>
+            <class>treecmp.metrics.topological.MatchingTripletMetric</class>
             <description>-Matching Triplet metric</description>
             <unif_data>unif_M3.txt</unif_data>
             <yule_data>yule_M3.txt</yule_data>
@@ -19,7 +19,7 @@
         <metric> 
             <name>MatchingSplit</name>
             <command_name>ms</command_name>
-            <class>treecmp.metric.MatchingSplitMetric</class>
+            <class>treecmp.metrics.topological.MatchingSplitMetric</class>
             <description>-Matching Split metric</description>
             <unif_data>unif_MS.txt</unif_data>
             <yule_data>yule_MS.txt</yule_data>
@@ -34,7 +34,7 @@
         <metric>
             <name>UMAST</name>
             <command_name>um</command_name>
-            <class>treecmp.metric.UmastMetric</class>
+            <class>treecmp.metrics.topological.UMASTMetric</class>
             <description>-Unrooted Maximum Agreement Subtree distance</description>
             <unif_data>unif_UM.txt</unif_data>
             <yule_data>yule_UM.txt</yule_data>
@@ -48,7 +48,7 @@
         <metric>
             <name>PathDiffernce</name>
             <command_name>pd</command_name>
-            <class>treecmp.metric.NodalL2Metric</class>
+            <class>treecmp.metrics.topological.NodalL2Metric</class>
             <description>-Path Difference metric</description>
             <unif_data>unif_PD.txt</unif_data>
             <yule_data>yule_PD.txt</yule_data>
@@ -62,7 +62,7 @@
         <metric>
             <name>Quartet</name>
             <command_name>qt</command_name>
-            <class>treecmp.metric.QuartetMetricLong</class>
+            <class>treecmp.metrics.topological.QuartetMetricLong</class>
             <description>-Quartet metric</description>
             <unif_data>unif_QT.txt</unif_data>
             <yule_data>yule_QT.txt</yule_data>
@@ -76,7 +76,7 @@
         <metric>
             <name>RF(0.5)</name>
             <command_name>rf</command_name>
-            <class>treecmp.metric.RFMetric</class>
+            <class>treecmp.metrics.topological.RFMetric</class>
             <description>-Robinson-Foulds metric</description>
             <unif_data>unif_RF.txt</unif_data>
             <yule_data>yule_RF.txt</yule_data>
@@ -90,7 +90,7 @@
         <metric>
             <name>MatchingPairUnrooted</name>
             <command_name>mpu</command_name>
-            <class>treecmp.metric.MatchingPairUnrootedMetric</class>
+            <class>treecmp.metrics.topological.MatchingPairUnrootedMetric</class>
             <description>-Matching Pair Unrooted metric</description>
             <unif_data>unif_MPU.txt</unif_data>
             <yule_data>yule_MPU.txt</yule_data>
@@ -100,7 +100,7 @@
         <metric>
             <name>RFWeighted(0.5)</name>
             <command_name>rfw</command_name>
-            <class>treecmp.metric.weighted.RFWeightMetric</class>
+            <class>treecmp.metrics.weighted.RFWeightMetric</class>
             <description>-weighted Robinsin Foulds metric</description>
             <weighted>true</weighted>
             <fullname>Weighted Robinsin Foulds distance</fullname>
@@ -113,7 +113,7 @@
         <metric>
             <name>GeoUnrooted</name>
             <command_name>gdu</command_name>
-            <class>treecmp.metric.weighted.GeoUnrootedMetric</class>
+            <class>treecmp.metrics.weighted.GeoUnrootedMetric</class>
             <description>-Geodesic Unrooted metric</description>
             <weighted>true</weighted>
             <fullname>Geodesic Unrooted distance</fullname>
@@ -127,7 +127,7 @@
         <metric> 
             <name>MatchingPair</name>
             <command_name>mp</command_name>
-            <class>treecmp.metric.MatchingPairMetric</class>
+            <class>treecmp.metrics.topological.MatchingPairMetric</class>
             <description>-Matching Pair metric</description>
             <unif_data>unif_MP.txt</unif_data>
             <yule_data>yule_MP.txt</yule_data>
@@ -142,7 +142,7 @@
         <metric>
             <name>MatchingCluster</name>
             <command_name>mc</command_name>
-            <class>treecmp.metric.MatchingClusterMetric</class>
+            <class>treecmp.metrics.topological.MatchingClusterMetric</class>
             <description>-Matching Cluster metric</description>
             <unif_data>unif_MC.txt</unif_data>
             <yule_data>yule_MC.txt</yule_data>
@@ -158,7 +158,7 @@
         <metric>
             <name>CopheneticL2Metric</name>
             <command_name>co</command_name>
-            <class>treecmp.metric.CopheneticL2Metric</class>
+            <class>treecmp.metrics.topological.CopheneticL2Metric</class>
             <description>-Cophenetic Metric with L2 norm</description>
             <unif_data>unif_CO.txt</unif_data>
             <yule_data>yule_CO.txt</yule_data>
@@ -173,7 +173,7 @@
         <metric>
             <name>NodalSplitted</name>
             <command_name>ns</command_name>
-            <class>treecmp.metric.NodalL2SplittedMetric</class>
+            <class>treecmp.metrics.topological.NodalL2SplittedMetric</class>
             <description>-Nodal Splitted metric</description>
             <unif_data>unif_NS.txt</unif_data>
             <yule_data>yule_NS.txt</yule_data>
@@ -188,7 +188,7 @@
         <metric>
             <name>Triples</name>
             <command_name>tt</command_name>
-            <class>treecmp.metric.TripletMetric</class>
+            <class>treecmp.metrics.topological.TripletMetric</class>
             <description>-Triplet metric </description>
             <unif_data>unif_TT.txt</unif_data>
             <yule_data>yule_TT.txt</yule_data>
@@ -203,7 +203,7 @@
         <metric>
             <name>MAST</name>
             <command_name>mt</command_name>
-            <class>treecmp.metric.RMASTMetric</class>
+            <class>treecmp.metrics.topological.RMASTMetric</class>
             <description>-Maximum Agreement Subtree distance</description>
             <unif_data>unif_MT.txt</unif_data>
             <yule_data>yule_MT.txt</yule_data>
@@ -218,7 +218,7 @@
         <metric>
             <name>RFCluster(0.5)</name>
             <command_name>rc</command_name>
-            <class>treecmp.metric.RFClusterMetric</class>
+            <class>treecmp.metrics.topological.RFClusterMetric</class>
             <description>-Robinson-Foulds Cluster metric</description>
             <unif_data>unif_RC.txt</unif_data>
             <yule_data>yule_RC.txt</yule_data>
@@ -234,7 +234,7 @@
         <metric>
             <name>RFClusterWeighted(0.5)</name>
             <command_name>rcw</command_name>
-            <class>treecmp.metric.weighted.RFCWeightMetric</class>
+            <class>treecmp.metrics.weighted.RFCWeightMetric</class>
             <description>-Weighted Robinsin Foulds Cluster metric</description>
             <rooted>true</rooted>
             <weighted>true</weighted>
@@ -248,7 +248,7 @@
         <metric>
             <name>NodalSplittedWeighted</name>
             <command_name>nsw</command_name>
-            <class>treecmp.metric.weighted.NodalL2EdgeWeightMetric</class>
+            <class>treecmp.metrics.weighted.NodalL2EdgeWeightMetric</class>
             <description>-Weighted Nodal Splitted metric</description>
             <rooted>true</rooted>
             <weighted>true</weighted>
@@ -262,7 +262,7 @@
         <metric>
             <name>GeoRooted</name>
             <command_name>gdr</command_name>
-            <class>treecmp.metric.weighted.GeoRootedMetric</class>
+            <class>treecmp.metrics.weighted.GeoRootedMetric</class>
             <description>-Geodesic Rooted metric</description>
             <rooted>true</rooted>
             <weighted>true</weighted>
@@ -276,7 +276,7 @@
         <metric>
             <name>CopheneticL2WeightedMetric</name>
             <command_name>cow</command_name>
-            <class>treecmp.metric.weighted.CopheneticL2WeightMetric</class>
+            <class>treecmp.metrics.weighted.CopheneticL2WeightMetric</class>
             <description>-Weighted Cophenetic Metric with L2 norm</description>
             <rooted>true</rooted>
             <weighted>true</weighted>
