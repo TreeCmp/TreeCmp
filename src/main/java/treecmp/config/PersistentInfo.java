@@ -21,8 +21,7 @@ public class PersistentInfo {
       
     public final String path= getClass().getProtectionDomain().getCodeSource().getLocation().toString();
 
-    public final static String resourcesPath= "resources/main";
-    public final static String configPath= resourcesPath + "/" + "config";
-    public final static String configFile=configPath+ "/config.xml";
-    public final static String dataPath= resourcesPath + "/data";
+    public final static String configPath = "/" + "config";
+    public final static String configFile = configPath+ "/config.xml";
+    public final static String dataPath = "/data";
 }

@@ -62,20 +62,10 @@ public class Main {
         String dataDir = "";
         String conf2 = null, dataDir2 = null;
 
-        String version = Main.class.getPackage().getImplementationVersion();
+        String tempPath = runtimePath.substring(0, runtimePath.lastIndexOf("/") + 1);
+        conf = tempPath + PersistentInfo.configFile;
+        dataDir = tempPath + PersistentInfo.dataPath;
 
-        if (version == null) {
-            conf = runtimePath + "../../../" + PersistentInfo.configFile;
-            dataDir = runtimePath + "../../../" + PersistentInfo.dataPath;
-
-            conf2 = runtimePath + "../../" + PersistentInfo.configFile;
-            dataDir2 = runtimePath + "../../" + PersistentInfo.dataPath;
-        } else {
-            String tempPath = runtimePath.substring(0, runtimePath.lastIndexOf("/") + 1);
-
-            conf = tempPath + PersistentInfo.configFile;
-            dataDir = tempPath + PersistentInfo.dataPath;
-        }
 
         try {
             ConfigSettings.initConfig(conf, dataDir);
