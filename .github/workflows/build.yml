@@ -46,8 +46,8 @@ jobs:
         run: |
           VERSION=${{ steps.get_version.outputs.version }}
           ZIP_NAME=TreeCmp-$VERSION.zip
-          
-          mkdir -p dist/config          
+          mkdir -p dist/config
+          mkdir -p dist/data
           cp target/TreeCmp-$VERSION.jar dist/
           cp target/config/config.xml dist/config/
           cp -r target/data/* dist/data/
