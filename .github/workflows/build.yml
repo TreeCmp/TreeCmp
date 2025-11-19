@@ -50,6 +50,7 @@ jobs:
           mkdir -p dist/config          
           cp target/TreeCmp-$VERSION.jar dist/
           cp target/config/config.xml dist/config/
+          cp -r target/data/* dist/data/
           cd dist
           zip -r ../$ZIP_NAME .
       - name: Create GitHub Release
